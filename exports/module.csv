@@ -1,0 +1,3 @@
+idArticle,title,quantitySt,unit,categorie,location,reference,is_critic,quantitySecurity,dispositionA,dispositionB,articleType,image,typeMachine
+24,moi,30,cm,"categorie 1",A14,-,-,2,M3,6,P:Pneumatique,-,"med14"
+25,moi,25,cm,"categorie 1",A14,-,-,2,M3,6,P:Pneumatique,-,"med18"
