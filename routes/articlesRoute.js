@@ -25,10 +25,11 @@ router.post('/creationArticle', async (req, res) => {
         } = req.body;
 
         // Validate required fields
+/*
         if (!title || !quantitySt || !unit || !categorie || !location  || !quantitySecurity ||
             !dispositionA || !dispositionB || !articleType || !typeMachine|| !imagePath ||  !currentUser || !currentUser.idUser) {
             return res.status(400).json({ message: 'Missing required fields' });
-        }
+        }*/
 
         // Get a connection from the pool
         connection = await pool1.getConnection();
