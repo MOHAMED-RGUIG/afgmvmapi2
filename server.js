@@ -39,15 +39,15 @@ app.use('/api/mvm/', mvmRoute);
 app.use('/api/csv/', csvRoute);
 app.use('/api/excel/', excelRoute);
 
-//image:
-/*const storage1 = multer.diskStorage({
+
+const storage1 = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, "public/images");
     },
     filename: (req, file, cb) => {
         cb(null, Date.now() + path.extname(file.originalname)); // Nom unique
     },
-});*/
+});
 //qrcode
 const storage2 = multer.diskStorage({
     destination: (req, file, cb) => {
